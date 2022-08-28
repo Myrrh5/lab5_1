@@ -1,0 +1,30 @@
+@media(max-width: 768px){
+    .flexible{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        width: 300px;
+    }
+}
+.flexible{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 3rem;
+    display: flex;
+}
+.content{
+    max-width: 500px;
+    padding: 2rem;
+    background-color: lightgray;
+}
+.botton{
+    color: white;
+    background-color: navy;
+    padding: 1rem;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: small;
+    margin: 0 auto;
+}
